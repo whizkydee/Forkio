@@ -198,15 +198,16 @@ p {
     letter-spacing: 0; }
   .visual h1 {
     margin: 0 0 10px;
-    font-size: 8.2rem;
+    font-size: 4.2rem;
     line-height: 1.12;
     font-weight: bold;
-    color: #e3dfed; }
+    color: #ff9900; }
   .visual p {
     margin: 0 0 8px; }
     .visual p.tagline {
       line-height: 1.1;
-      font-size: 2.6rem; }
+      font-size: 2.6rem;
+      color: #5f451e; }
   .visual .info {
     display: block;
     font-size: 1.6rem;
@@ -214,7 +215,7 @@ p {
     color: #494654;
     text-transform: uppercase; }
   .visual .text-block {
-    padding: 90px 0; }
+    padding: 30rem 0; }
 
 #cta {
   position: relative;
