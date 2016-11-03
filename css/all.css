@@ -54,9 +54,11 @@ p {
 
 .logo {
   float: left;
-  margin: 0 0 0 15px;
+  margin: -10px 0 0 15px;
   width: 151px;
   height: 41px; }
+  .logo img {
+    width: 97%; }
 
 .social-placeholder {
   padding: 9px 0 0;
@@ -77,6 +79,8 @@ p {
   box-shadow: 0 1px 1px rgba(196, 194, 202, 0.23);
   -webkit-backface-visibility: hidden;
   /* Prevent Chrome bug because of on-scroll effect in other section */ }
+  #header .container {
+    width: inherit; }
   #header .btn {
     float: right;
     margin: 2px 0 0 59px;
@@ -113,7 +117,7 @@ p {
       color: #635C73; }
       #nav li a:hover {
         text-decoration: none;
-        color: #8d81ac; }
+        color: #ff9900; }
 
 .nav-opener {
   display: none;
@@ -404,7 +408,7 @@ p {
       margin: 0;
       font-size: 2.4rem;
       line-height: 1.33333;
-      color: #635C73; }
+      color: #ff9900; }
     .cycle-gallery .img-box a {
       font-weight: bold; }
   .cycle-gallery:after {
@@ -632,7 +636,7 @@ p {
   position: relative;
   z-index: 99;
   background: rgba(0, 0, 0, 0.2);
-  border-color: #8d81ac; }
+  border-color: #ff9900; }
   .plan.recommended ul {
     min-height: 176px;
     line-height: 32px;
@@ -809,7 +813,7 @@ p {
             bottom: 20px;
             width: 4px;
             left: 0;
-            background: #8d81ac; }
+            background: #ff9900; }
           #nav .nav-drop > ul li a {
             display: block;
             margin: 0 -9999px;
@@ -819,7 +823,7 @@ p {
             background: rgba(51, 51, 51, 0.98); }
             #nav .nav-drop > ul li a:active, #nav .nav-drop > ul li a:focus, #nav .nav-drop > ul li a:hover {
               text-decoration: none;
-              color: #8d81ac; }
+              color: #ff9900; }
           #nav .nav-drop > ul li.active {
             position: relative; }
             #nav .nav-drop > ul li.active a {
@@ -844,7 +848,7 @@ p {
             font-size: 3rem;
             color: #fff; }
             #nav .nav-drop .drop-holder ul a:hover {
-              color: #8d81ac; }
+              color: #ff9900; }
 
   .nav-active #nav .nav-drop {
     pointer-events: auto;
