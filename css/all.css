@@ -114,7 +114,7 @@ p {
     margin: 0 0 0 34px; }
     #nav li a {
       display: block;
-      color: #F4C44E; }
+      color: #E5B53F; }
       #nav li a:hover {
         text-decoration: none;
         color: #ff9900; }
@@ -176,11 +176,8 @@ p {
   position: relative;
   overflow: hidden;
   text-align: center;
-  color: #8d81ac;
-  font-size: 0;
   letter-spacing: -4px;
-  padding: 104px 0 0;
-  background: #000; }
+  padding: 104px 0 0; }
   .visual .bg-stretch {
     position: absolute;
     bottom: 60px;
@@ -197,17 +194,18 @@ p {
     line-height: 1.5;
     letter-spacing: 0; }
   .visual h1 {
+    color: #E5B53F;
     margin: 0 0 10px;
     font-size: 4.2rem;
     line-height: 1.12;
-    font-weight: bold;
-    color: #ff9900; }
+    font-weight: bold; }
   .visual p {
     margin: 0 0 8px; }
     .visual p.tagline {
       line-height: 1.1;
       font-size: 2.6rem;
-      color: #5f451e; }
+      color: #5f451e;
+      margin-top: 10px; }
   .visual .info {
     display: block;
     font-size: 1.6rem;
@@ -216,6 +214,23 @@ p {
     text-transform: uppercase; }
   .visual .text-block {
     padding: 30rem 0; }
+  .visual .search {
+    margin-top: 20px; }
+    .visual .search input {
+      border-radius: 5px 0 0 5px;
+      padding: 10px 28px;
+      min-width: 400px;
+      height: 50px; }
+    .visual .search button {
+      background-color: #E5B53F;
+      border-color: #E5B53F;
+      border-radius: 0 5px 5px 0;
+      padding: 10px 28px;
+      margin-left: -7px;
+      height: 50px; }
+      .visual .search button:hover {
+        background-color: #d49f1d;
+        border-color: #d49f1d; }
 
 #cta {
   position: relative;
@@ -637,7 +652,7 @@ p {
   position: relative;
   z-index: 99;
   background: rgba(0, 0, 0, 0.2);
-  border-color: #F4C44E; }
+  border-color: #E5B53F; }
   .plan.recommended ul {
     min-height: 176px;
     line-height: 32px;
@@ -697,7 +712,7 @@ p {
     .footer-holder .logo + p {
       line-height: 21px; }
   .footer-holder h4 {
-    color: #F4C44E;
+    color: #E5B53F;
     margin: 0 0 14px;
     font-size: 1.6rem;
     line-height: 1.5;
@@ -710,9 +725,9 @@ p {
     font-size: 1.5rem;
     line-height: 1.55; }
     .footer-holder ul a {
-      color: #8d81ac; }
+      color: #848e97; }
       .footer-holder ul a:hover {
-        color: #716298; }
+        color: #7893a6; }
   .footer-holder .text-holder {
     padding: 0 0 0 10px; }
   .footer-holder .text-frame {
@@ -815,7 +830,7 @@ p {
             bottom: 20px;
             width: 4px;
             left: 0;
-            background: #F4C44E; }
+            background: #E5B53F; }
           #nav .nav-drop > ul li a {
             display: block;
             margin: 0 -9999px;
@@ -825,7 +840,7 @@ p {
             background: rgba(51, 51, 51, 0.98); }
             #nav .nav-drop > ul li a:active, #nav .nav-drop > ul li a:focus, #nav .nav-drop > ul li a:hover {
               text-decoration: none;
-              color: #F4C44E; }
+              color: #E5B53F; }
           #nav .nav-drop > ul li.active {
             position: relative; }
             #nav .nav-drop > ul li.active a {
@@ -850,7 +865,7 @@ p {
             font-size: 3rem;
             color: #fff; }
             #nav .nav-drop .drop-holder ul a:hover {
-              color: #F4C44E; }
+              color: #E5B53F; }
 
   .nav-active #nav .nav-drop {
     pointer-events: auto;

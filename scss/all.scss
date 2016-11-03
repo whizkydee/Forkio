@@ -207,11 +207,8 @@ p {
 	position: relative;
 	overflow: hidden;
 	text-align: center;
-	color: #8d81ac;
-	font-size: 0;
 	letter-spacing: -4px;
 	padding: 104px 0 0;
-	background: #000;
 
 	.bg-stretch {
 		position: absolute;
@@ -231,11 +228,11 @@ p {
 		letter-spacing: 0;
 	}
 	h1 {
+    color: $brand-primary;
 		margin: 0 0 10px;
 		font-size: 4.2rem;
 		line-height: 1.12;
 		font-weight: bold;
-		color: $brand-secondary;
 	}
 	p {
 		margin: 0 0 8px;
@@ -243,6 +240,7 @@ p {
 			line-height: 1.1;
   		font-size: 2.6rem;
       color: #5f451e;
+      margin-top: 10px;
 		}
 	}
 	.info {
@@ -252,9 +250,32 @@ p {
 		color: #494654;
 		text-transform: uppercase;
 	}
-	.text-block {
+
+  .text-block {
 		padding: 30rem 0;
 	}
+  .search {
+    margin-top: 20px;
+    input {
+      border-radius: 5px 0 0 5px;
+      padding: 10px 28px;
+      min-width: 400px;
+      height: 50px;
+    }
+
+    button {
+      background-color: $brand-primary;
+      border-color: $brand-primary;
+      border-radius: 0 5px 5px 0;
+      padding: 10px 28px;
+      margin-left: -7px;
+      height: 50px;
+      &:hover {
+        background-color: darken($brand-primary, 10%);
+        border-color: darken($brand-primary, 10%);
+      }
+    }
+  }
 }
 #cta {
 	position: relative;
@@ -837,10 +858,10 @@ p {
 		line-height: 1.55;
 
 		a {
-			color: #8d81ac;
+			color: #848e97;
 
 			&:hover {
-				color: #716298;
+				color: lighten($text-color, 20%);
 			}
 		}
 	}
