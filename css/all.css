@@ -216,6 +216,8 @@ p {
     padding: 30rem 0; }
   .visual .search {
     margin-top: 20px; }
+    .visual .search .form-group {
+      box-shadow: #E3B9B5 0px 0px 20px 2px; }
     .visual .search input {
       border-radius: 5px 0 0 5px;
       padding: 10px 28px;
