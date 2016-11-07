@@ -38,6 +38,10 @@ p {
   display: table;
   overflow: hidden;
   table-layout: fixed; }
+  #wrapper h1, #wrapper h2, #wrapper h3, #wrapper h4, #wrapper h5, #wrapper h6 {
+    color: #000; }
+  #wrapper .feature-heading {
+    text-align: center; }
 
 #footer {
   width: 100%;
@@ -333,7 +337,7 @@ p {
     padding: 32px 0 0; }
 
 .area {
-  padding: 77px 0 47px; }
+  padding: 40px 0 47px; }
   .area h2 {
     margin: 0 0 28px;
     font-size: 4rem;
@@ -346,6 +350,7 @@ p {
     position: relative;
     margin: 0 0 -140px; }
     .slide-holder .img-slide img {
+      border-radius: 10px;
       position: relative;
       top: 0;
       left: -20px; }
@@ -375,7 +380,7 @@ p {
     float: left;
     width: 90px;
     text-align: center;
-    margin: 7px 45px 0 0; }
+    margin: 8px 10px 0 0; }
     .visual-list .img-holder img {
       vertical-align: top; }
   .visual-list .text-holder {
@@ -469,16 +474,18 @@ p {
   z-index: 1; }
 
 .visual-container {
-  background: #4E384E;
+  background: #f4f4f4;
   text-align: center; }
   .visual-container .visual-area {
     position: relative;
     overflow: hidden;
-    padding: 90px 0 70px;
+    padding: 0px 0 70px;
     font-size: 1.4rem;
     line-height: 1.5;
     color: #fff; }
     .visual-container .visual-area > .container {
+      padding: 52px 0 75px;
+      text-align: center;
       position: relative;
       z-index: 1; }
       .visual-container .visual-area > .container > p {
@@ -498,30 +505,31 @@ p {
       height: 1px;
       background: rgba(102, 74, 102, 0.6); }
   .visual-container h2 {
-    margin: 0 0 70px;
-    font-size: 4.8rem;
-    line-height: 1.166666;
-    font-weight: bold;
-    color: #e3dfed; }
+    margin: 0 auto 5.8rem;
+    font-size: 2.4rem;
+    line-height: 1rem;
+    font-weight: normal;
+    color: #000; }
   .visual-container p.silent {
     color: #746074; }
 
 .testimonials {
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 0 8%;
   list-style: none;
   color: #fff;
-  margin-bottom: -46px;
+  margin-bottom: -129px;
   overflow: hidden;
   font-size: 0;
-  letter-spacing: -4px; }
+  letter-spacing: -4px;
+  line-height: 0; }
   .testimonials li {
     display: inline-block;
     vertical-align: top;
-    font-size: 1.6rem;
     line-height: 1.5;
-    width: 33.3333%;
-    letter-spacing: 0; }
+    width: 24.3333%;
+    letter-spacing: 0;
+    font-size: 0; }
   .testimonials .img-holder img {
     display: inline-block;
     vertical-align: middle; }
@@ -1217,5 +1225,11 @@ p {
   [href^='tel:'] {
     cursor: default;
     pointer-events: none; } }
+.rely-text {
+  font-family: Montserrat;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 300;
+  color: #2d2d2d; }
 
 /*# sourceMappingURL=all.css.map */
