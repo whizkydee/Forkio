@@ -203,7 +203,7 @@ p {
 	transform: rotate(-45deg);
 }
 .visual {
-	min-height: 904px;
+	min-height: 600px;
 	position: relative;
 	overflow: hidden;
 	text-align: center;
@@ -228,19 +228,19 @@ p {
 		letter-spacing: 0;
 	}
 	h1 {
-    color: $brand-primary;
 		margin: 0 0 10px;
 		font-size: 4.2rem;
 		line-height: 1.12;
-		font-weight: bold;
+		font-weight: 400;
+		color: #000;
 	}
 	p {
 		margin: 0 0 8px;
 		&.tagline {
 			line-height: 1.1;
-  		font-size: 2.6rem;
+  		font-size: 2.4rem;
       color: #5f451e;
-      margin-top: 10px;
+      margin: 15px 8px;
 		}
 	}
 	.info {
@@ -252,34 +252,50 @@ p {
 	}
 
   .text-block {
-		padding: 30rem 0;
-	}
-  .search {
-    margin-top: 20px;
-    .form-group {
-      box-shadow: #E3B9B5 0px 0px 20px 2px;
-    }
-
-    input {
-      border-radius: 5px 0 0 5px;
-      padding: 10px 28px;
-      min-width: 400px;
-      height: 50px;
-    }
-
+		padding: 15rem 0;
     button {
       background-color: $brand-primary;
+      font-family: 'Source Sans Pro';
       border-color: $brand-primary;
-      border-radius: 0 5px 5px 0;
-      padding: 10px 28px;
-      margin-left: -7px;
-      height: 50px;
+      text-transform: uppercase;
+      letter-spacing: .03em;
+      border-radius: 3px;
+      padding: 5px 15px;
+      font-weight: 200;
+      font-size: .7em;
+      height: 46px;
       &:hover {
         background-color: darken($brand-primary, 10%);
         border-color: darken($brand-primary, 10%);
       }
     }
-  }
+	}
+  // .search {
+  //   margin-top: 20px;
+  //   .form-group {
+  //     box-shadow: #E3B9B5 0px 0px 20px 2px;
+  //   }
+	//
+  //   input {
+  //     border-radius: 5px 0 0 5px;
+  //     padding: 10px 28px;
+  //     min-width: 400px;
+  //     height: 50px;
+  //   }
+	//
+  //   button {
+  //     background-color: $brand-primary;
+  //     border-color: $brand-primary;
+  //     border-radius: 0 5px 5px 0;
+  //     padding: 10px 28px;
+  //     margin-left: -7px;
+  //     height: 50px;
+  //     &:hover {
+  //       background-color: darken($brand-primary, 10%);
+  //       border-color: darken($brand-primary, 10%);
+  //     }
+  //   }
+  // }
 }
 #cta {
 	position: relative;
@@ -409,7 +425,7 @@ p {
 }
 .area {
 	padding: 77px 0 47px;
-	background: #f4f4f4;
+	// background: #f4f4f4;
 
 	h2 {
 		margin: 0 0 28px;
